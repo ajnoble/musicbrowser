@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'sanfranciscodisplay-regular-webfont';
+  src: url('../css/fonts/sanfranciscodisplay-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../css/fonts/sanfranciscodisplay-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../css/fonts/sanfranciscodisplay-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../css/fonts/sanfranciscodisplay-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../css/fonts/sanfranciscodisplay-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../css/fonts/sanfranciscodisplay-regular-webfont.svg#sanfranciscodisplay-regular-webfont') format('svg'); /* Legacy iOS */
+}
+html{
+  background-color: $black;
+  @include respond-to(large) {
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+body {
+  color: $white;
+  font-family: 'sanfranciscodisplay-regular-webfont', Arial, sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+a{
+  color: $white;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.main{
+  display: block;
+  padding-top: 8px;
+  @include respond-to(large) {
+    margin-top: 84px;
+    max-width: $grid-maxwidth;
+  }
+}

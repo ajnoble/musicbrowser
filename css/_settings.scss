@@ -1,0 +1,22 @@
+//Grid settings
+$gutter-width: 28px;
+$grid-maxwidth: 1124px;
+
+//Breakpoints
+$breakpoints: (
+  'small'  : ( min-width:  320px ),
+  'large'  : ( min-width: 641px ),
+  'xlarge' : ( min-width: 960px )
+);
+
+//common colours
+$white: #ffffff;
+$black: #000000;
+$yellow: #fef378;
+//misc colours
+$top-songs-border-colour: #616163;
+$card-2-text-colour: #cbaf92;
+$card-3-text-colour: #2d3141;
+
+//nav height
+$nav-height: 59px;

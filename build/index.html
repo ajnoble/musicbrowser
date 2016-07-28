@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<title>AKQA Music Browser</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<h1 class="visuallyhidden">AKQA Music Browser</h1>
+	<header class="mobile-header">
+		<button type="button" class="mobile-header__menu-btn" >
+				<span class="visuallyhidden">Open menu</span>
+		</button>
+		<div class="searchform searchform--mobile">
+			<form role="search" action="#">
+				<input title="Search" name="search">
+				<button type="submit" title="Search">
+					Search
+				</button>
+			</form>
+		</div>
+	</header>
+	<nav class="navigation">
+		<button type="button" class="naviagtion__toggle" aria-hidden="true">
+			X <span class="visuallyhidden">Close menu</span>
+		</button>
+		<ul class="navigation__list">
+			<li class="navigation__list-item">
+				<a href="#">MY MUSIC</a>
+			</li>
+			<li class="navigation__list-item">
+				<a href="#">PLAYLIST</a>
+			</li>
+			<li class="navigation__list-item">
+				<a href="#">NEW</a>
+			</li>
+			<li class="navigation__list-item">
+				<a href="#">EXPLORE</a>
+			</li>
+			<li class="navigation__list-item navigation__list-item--search">
+				<div class="searchform">
+					<form role="search" action="#">
+						<input title="Search" name="search">
+						<button type="submit" title="Search">
+							Search
+						</button>
+					</form>
+				</div>
+			</li>
+		</ul>
+	</nav>
+
+	<main class="container-fluid main">
+		<div class="row">
+			<section class="col-xs-12 col-sm-8 ">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<a href="#" class="card card--1">
+							<div class="card__header">
+								<h2>New and Noteworthy</h2>
+								<p>Kicking off 2016 with these new hits</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<a href="#" class="card card--2">
+							<div class="card__header">
+								<h2>Pre-Order New Music</h2>
+								<p>Available later this season</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<a href="#" class="card card--3">
+							<div class="card__header">
+								<h2>Best of 2015</h2>
+								<p>Rewind last year’s best hits</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<a href="#" class="card card--4">
+							<div class="card__header">
+								<h2>New Artist Spotlight</h2>
+								<p>Hear some of the newest hits in 2016</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<aside class="container-fluid col-xs-12 col-sm-4 ">
+				<div class="top-songs">
+					<h2>TOP SONGS</h2>
+					<ul class="top-songs__list">
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-1-2x.jpg" alt="Desiigner album artwork">
+							<h3>Panda</h3>
+							<p>Desiigner</p>
+						</li>
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-2-2x.jpg" alt="Rhianna album artwork">
+							<h3>Needed Me</h3>
+							<p>Rhianna</p>
+						</li>
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-3-2x.jpg" alt="The Chainsmokers, Daya album artwork">
+							<h3>Don't Let Me Down</h3>
+							<p>The Chainsmokers, Daya</p>
+						</li>
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-4.jpg" alt="Lukas Graham album artwork">
+							<h3>7 Years</h3>
+							<p>Lukas Graham</p>
+						</li>
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-5.jpg" alt="Rihanna, Drake album artwork">
+							<h3>Work</h3>
+							<p>Rihanna, Drake</p>
+						</li>
+						<li class="top-songs__list-item">
+							<img src="css/images/top-song-6.jpg" alt="Mike Posner album artwork">
+							<h3>I Took A Pill In Ibiza - Seeb...</h3>
+							<p>Mike Posner</p>
+						</li>
+					</ul>
+					<button type="button" class="top-songs__see-more-btn" aria-hidden="true">
+							See Less
+					</button>
+				</div>
+			</aside>
+		</div>
+	</main>
+
+	<footer class="footer" >
+		<ul class="footer__list">
+			<li class="footer__list-item">COPYRIGHT © 2016, ALL RIGHTS RESERVED.</li>
+			<li class="footer__list-item"><a href="#">CONTACT US</a></li>
+			<li class="footer__list-item"><a href="#">PRIVACY & COOKIES</a></li>
+			<li class="footer__list-item"><a href="#">SALES AND REFUNDS</a></li>
+			<li class="footer__list-item"><a href="#">SITE MAP</a></li>
+		</ul>
+	</footer>
+	<div class="bg-image"></div>
+	<script src="bundle.js"></script>
+</body>
+
+</html>

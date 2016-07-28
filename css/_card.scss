@@ -1,0 +1,40 @@
+
+.card {
+  background-size: cover;
+  box-shadow: 0px 0px 7px 4px rgba(0,0,0,.35);
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+  min-height: 205px;
+  position: relative;
+  @include respond-to(large) {
+    margin-bottom: 0;
+  }
+}
+.card__header {
+  bottom: 20px;
+  padding-right: 20px;
+  position: absolute;
+  h2{
+    font-size: units(21px);
+    line-height: units(21px);
+    margin: 0 0 5px;
+  }
+  p{
+    margin: 0;
+  }
+}
+.card--1{
+  background-image: url('images/card1-2x.jpg');
+}
+.card--2{
+  color: $card-2-text-colour;
+  background-image: url('images/card2-2x.jpg');
+}
+.card--3{
+  color: $card-3-text-colour;
+  background-image: url('images/card3-2x.jpg');
+}
+.card--4{
+  background-image: url('images/card4-2x.jpg');
+}

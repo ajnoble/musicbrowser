@@ -1,0 +1,19 @@
+.mobile-header{
+  height: 45px;
+  @include respond-to(large) {
+    display: none;
+  }
+}
+.mobile-header__menu-btn{
+  background-image: url('images/hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: 18px 14px;
+  background-color: $black;
+  background-position: 0;
+  border: 0;
+  cursor: pointer;
+  height: 45px;
+  margin-left: 34px;
+  text-indent: -99999px;
+  width: 18px;
+}

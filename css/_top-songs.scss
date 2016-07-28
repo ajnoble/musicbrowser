@@ -1,0 +1,59 @@
+.top-songs{
+  height: 100%;
+  @include respond-to(large) {
+    border-left: 1px solid $top-songs-border-colour;
+    margin-left: 18px;
+    padding-left: 38px;
+  }
+
+  h2{
+    font-size: 16px;
+    margin: 0 0 32px;
+    letter-spacing: 2px;
+  }
+}
+.top-songs__list{
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.top-songs__list-item{
+  margin-bottom: 26px;
+  transition: all .25s ease-in-out;
+  img{
+    border-radius: 22px;
+    box-shadow: 0px 0px 7px 1px rgb(0, 0, 0);
+    margin-right: 18px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    @include respond-to(large) {
+      float: none;
+    }
+    @include respond-to(xlarge) {
+      float: left;
+    }
+  }
+  h3{
+    color: $yellow;
+    font-size: 16px;
+    margin: 5px 0 2px;
+  }
+  p{
+    margin: 0;
+  }
+}
+.top-songs__see-more-btn{
+  background-color: $yellow;
+  border: 0;
+  border-radius: 25px;
+  color: $black;
+  line-height: 44px;
+  width: 100%;
+
+  @include respond-to(large) {
+    display: none;
+  }
+}
