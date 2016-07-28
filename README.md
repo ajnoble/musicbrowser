@@ -2,7 +2,7 @@
 musicbrowser
 ==============
 
-One page responsive music browser test app built with npm/webpack/js/sass
+One page responsive music browser test app built with npm/webpack/es6/sass
 
 ## Install
 ```
